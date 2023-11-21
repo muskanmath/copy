@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <style>
+    *{
+        margin: 0px;
+    }
+    .banner{
+     width: 100%;
+     height: 600px;
+     background-image: url(https://preview.colorlib.com/theme/confer/img/bg-img/1.jpg);
+     background-size: 100% 100%;
+     }
+    .overlay{
+     width: 100%;
+     height: 600px;
+    background-color: rgba(0,0,0,0.5);
+     }
+header {
+width: inherit;
+height: 60px;
+background-color: rgba(0,0,0,0.6);}
+
+header {
+width: inherit;
+height: 60px;
+background-color: rgba(0,0,0,0.6);
+}
+nav{
+width: 1140px;
+height: 60px;
+background-color: red;
+margin: auto;
+position: relative;
+}
+.nav-items{
+width: 200px;
+height: 60px;
+background-color: antiquewhite;
+text-align: center;
+line-height: 3;
+float: left;}
+.nav-items:first-child{
+background-color: transparent; }
+
+.nav-items:first-child img{
+width: 144px;
+height: 20px;
+}
+.PAgechil{
+width: 300px;
+height: 400px;
+background-color: rgb(129, 152, 172);
+position: absolute;
+top: 100%;
+opacity: 0;
+visibility: hidden;}
+
+.nav-items:hover .PAgechil{
+opacity: 1;
+visibility: visible;
+}
+.PageCild-items{
+width: inherit;
+height: 50px;
+background-color: aquamarine;
+}
+.Dropdown{
+position: absolute;
+width: 300px;
+height: 400px;
+background-color: rgb(31, 35, 33);
+left: 100%;
+top: 0px;
+opacity: 0;
+visibility: hidden;}
+.PageCild-items:hover .Dropdown{
+opacity: 1;
+visibility: visible;
+}
+</style>
+</head>
+<body>
+<div class="banner">
+<div class="overlay">
+    <header>
+        <nav>
+        <div class="nav-items">
+            <img src="https://preview.colorlib.com/theme/confer/img/core-img/logo.png.webp">
+        </div>
+        <div class="nav-items">
+        Home
+        </div>
+        <div class="nav-items">
+        <a href="#">
+        Pages
+        </a>
+        <div class="PAgechi1">
+        <div class="PageCild-items">hello</div>
+        <div class="PageCild-items">hello</div>
+        <div class="PageCild-items">hello</div>
+        <div class="PageCild-items">hello</div>
+        <div class="PageCild-items">hello</div>
+        <div class="PageCild-items"><a href="#">demo</a>
+        <div class="Dropdown"></div>
+        </div>
+        </div>
+    </div>
+    <div class="nav-items">
+    Home
+    </div>
+    <div class="nav-items">
+    Home
+    </div>
+    </nav>
+    </header>
+</div>
+</div>
+</body>
+</html>
